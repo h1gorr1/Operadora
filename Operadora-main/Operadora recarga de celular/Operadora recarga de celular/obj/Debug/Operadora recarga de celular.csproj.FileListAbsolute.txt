@@ -1,0 +1,10 @@
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\bin\Debug\Operadora recarga de celular.exe.config
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\bin\Debug\Operadora recarga de celular.exe
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\bin\Debug\Operadora recarga de celular.pdb
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora recarga de celular.csproj.AssemblyReference.cache
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora_recarga_de_celular.Form1.resources
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora_recarga_de_celular.Properties.Resources.resources
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora recarga de celular.csproj.GenerateResource.cache
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora recarga de celular.csproj.CoreCompileInputs.cache
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora recarga de celular.exe
+C:\Users\CP\Desktop\Operadora-main\Operadora recarga de celular\Operadora recarga de celular\obj\Debug\Operadora recarga de celular.pdb
