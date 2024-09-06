@@ -1,7 +1,7 @@
 ﻿
 namespace Operadora_recarga_de_celular
 {
-    partial class Form1
+    partial class Frm_RecargaParaCelular
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,6 +29,7 @@ namespace Operadora_recarga_de_celular
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_RecargaParaCelular));
             this.Grp_Operadoras = new System.Windows.Forms.GroupBox();
             this.Rad_Oi = new System.Windows.Forms.RadioButton();
             this.Rad_Tim = new System.Windows.Forms.RadioButton();
@@ -38,9 +39,9 @@ namespace Operadora_recarga_de_celular
             this.Lbl_Nome = new System.Windows.Forms.Label();
             this.Lbl_Operadora = new System.Windows.Forms.Label();
             this.Txt_Nome = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Lbl_BemVindo = new System.Windows.Forms.Label();
             this.Lbl_DDD = new System.Windows.Forms.Label();
-            this.Lbl_Numero = new System.Windows.Forms.Label();
+            this.Lbl_Celular = new System.Windows.Forms.Label();
             this.Lbl_Valor = new System.Windows.Forms.Label();
             this.Lbl_SelecioneoValorDeRecarga = new System.Windows.Forms.Label();
             this.Txt_Operadora = new System.Windows.Forms.TextBox();
@@ -64,8 +65,9 @@ namespace Operadora_recarga_de_celular
             this.Lbl_Validade7 = new System.Windows.Forms.Label();
             this.Lbl_Validade6 = new System.Windows.Forms.Label();
             this.Lbl_Validade8 = new System.Windows.Forms.Label();
-            this.Grp_Operadora = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Grp_Operadoras.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Grp_Operadoras
@@ -124,6 +126,7 @@ namespace Operadora_recarga_de_celular
             this.Rad_Vivo.TabStop = true;
             this.Rad_Vivo.Text = "Vivo";
             this.Rad_Vivo.UseVisualStyleBackColor = true;
+            this.Rad_Vivo.CheckedChanged += new System.EventHandler(this.Rad_Vivo_CheckedChanged);
             // 
             // Lbl_Nome
             // 
@@ -150,14 +153,14 @@ namespace Operadora_recarga_de_celular
             this.Txt_Nome.Size = new System.Drawing.Size(424, 20);
             this.Txt_Nome.TabIndex = 4;
             // 
-            // label2
+            // Lbl_BemVindo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(162, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Seja Bem Vindo(a):";
+            this.Lbl_BemVindo.AutoSize = true;
+            this.Lbl_BemVindo.Location = new System.Drawing.Point(162, 93);
+            this.Lbl_BemVindo.Name = "Lbl_BemVindo";
+            this.Lbl_BemVindo.Size = new System.Drawing.Size(97, 13);
+            this.Lbl_BemVindo.TabIndex = 5;
+            this.Lbl_BemVindo.Text = "Seja Bem Vindo(a):";
             // 
             // Lbl_DDD
             // 
@@ -168,14 +171,14 @@ namespace Operadora_recarga_de_celular
             this.Lbl_DDD.TabIndex = 6;
             this.Lbl_DDD.Text = "DDD";
             // 
-            // Lbl_Numero
+            // Lbl_Celular
             // 
-            this.Lbl_Numero.AutoSize = true;
-            this.Lbl_Numero.Location = new System.Drawing.Point(396, 165);
-            this.Lbl_Numero.Name = "Lbl_Numero";
-            this.Lbl_Numero.Size = new System.Drawing.Size(94, 13);
-            this.Lbl_Numero.TabIndex = 7;
-            this.Lbl_Numero.Text = "Número do Celular";
+            this.Lbl_Celular.AutoSize = true;
+            this.Lbl_Celular.Location = new System.Drawing.Point(396, 165);
+            this.Lbl_Celular.Name = "Lbl_Celular";
+            this.Lbl_Celular.Size = new System.Drawing.Size(94, 13);
+            this.Lbl_Celular.TabIndex = 7;
+            this.Lbl_Celular.Text = "Número do Celular";
             // 
             // Lbl_Valor
             // 
@@ -236,7 +239,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade1
             // 
-            this.Btn_Validade1.Enabled = false;
             this.Btn_Validade1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade1.Location = new System.Drawing.Point(360, 231);
             this.Btn_Validade1.Name = "Btn_Validade1";
@@ -256,7 +258,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade2
             // 
-            this.Btn_Validade2.Enabled = false;
             this.Btn_Validade2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade2.Location = new System.Drawing.Point(452, 231);
             this.Btn_Validade2.Name = "Btn_Validade2";
@@ -267,7 +268,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade3
             // 
-            this.Btn_Validade3.Enabled = false;
             this.Btn_Validade3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade3.Location = new System.Drawing.Point(547, 231);
             this.Btn_Validade3.Name = "Btn_Validade3";
@@ -278,7 +278,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade4
             // 
-            this.Btn_Validade4.Enabled = false;
             this.Btn_Validade4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade4.Location = new System.Drawing.Point(641, 231);
             this.Btn_Validade4.Name = "Btn_Validade4";
@@ -316,7 +315,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade5
             // 
-            this.Btn_Validade5.Enabled = false;
             this.Btn_Validade5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade5.Location = new System.Drawing.Point(360, 317);
             this.Btn_Validade5.Name = "Btn_Validade5";
@@ -327,7 +325,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade6
             // 
-            this.Btn_Validade6.Enabled = false;
             this.Btn_Validade6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade6.Location = new System.Drawing.Point(452, 317);
             this.Btn_Validade6.Name = "Btn_Validade6";
@@ -338,7 +335,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade7
             // 
-            this.Btn_Validade7.Enabled = false;
             this.Btn_Validade7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade7.Location = new System.Drawing.Point(547, 317);
             this.Btn_Validade7.Name = "Btn_Validade7";
@@ -349,7 +345,6 @@ namespace Operadora_recarga_de_celular
             // 
             // Btn_Validade8
             // 
-            this.Btn_Validade8.Enabled = false;
             this.Btn_Validade8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Validade8.Location = new System.Drawing.Point(641, 317);
             this.Btn_Validade8.Name = "Btn_Validade8";
@@ -394,22 +389,22 @@ namespace Operadora_recarga_de_celular
             this.Lbl_Validade8.TabIndex = 30;
             this.Lbl_Validade8.Text = "Validade";
             // 
-            // Grp_Operadora
+            // pictureBox1
             // 
-            this.Grp_Operadora.BackgroundImage = global::Operadora_recarga_de_celular.Properties.Resources._20200116015201__1_;
-            this.Grp_Operadora.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Grp_Operadora.Location = new System.Drawing.Point(18, 259);
-            this.Grp_Operadora.Name = "Grp_Operadora";
-            this.Grp_Operadora.Size = new System.Drawing.Size(299, 141);
-            this.Grp_Operadora.TabIndex = 31;
-            this.Grp_Operadora.TabStop = false;
+            this.pictureBox1.BackgroundImage = global::Operadora_recarga_de_celular.Properties.Resources._20200116015201__1_;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 249);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(342, 151);
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // Frm_RecargaParaCelular
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Grp_Operadora);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Lbl_Validade8);
             this.Controls.Add(this.Lbl_Validade6);
             this.Controls.Add(this.Lbl_Validade7);
@@ -433,17 +428,19 @@ namespace Operadora_recarga_de_celular
             this.Controls.Add(this.Txt_Operadora);
             this.Controls.Add(this.Lbl_SelecioneoValorDeRecarga);
             this.Controls.Add(this.Lbl_Valor);
-            this.Controls.Add(this.Lbl_Numero);
+            this.Controls.Add(this.Lbl_Celular);
             this.Controls.Add(this.Lbl_DDD);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Lbl_BemVindo);
             this.Controls.Add(this.Txt_Nome);
             this.Controls.Add(this.Lbl_Operadora);
             this.Controls.Add(this.Lbl_Nome);
             this.Controls.Add(this.Grp_Operadoras);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Frm_RecargaParaCelular";
+            this.Text = "Recarga Para Celular";
             this.Grp_Operadoras.ResumeLayout(false);
             this.Grp_Operadoras.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -460,9 +457,9 @@ namespace Operadora_recarga_de_celular
         private System.Windows.Forms.Label Lbl_Nome;
         private System.Windows.Forms.Label Lbl_Operadora;
         private System.Windows.Forms.TextBox Txt_Nome;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Lbl_BemVindo;
         private System.Windows.Forms.Label Lbl_DDD;
-        private System.Windows.Forms.Label Lbl_Numero;
+        private System.Windows.Forms.Label Lbl_Celular;
         private System.Windows.Forms.Label Lbl_Valor;
         private System.Windows.Forms.Label Lbl_SelecioneoValorDeRecarga;
         private System.Windows.Forms.TextBox Txt_Operadora;
@@ -486,7 +483,7 @@ namespace Operadora_recarga_de_celular
         private System.Windows.Forms.Label Lbl_Validade7;
         private System.Windows.Forms.Label Lbl_Validade6;
         private System.Windows.Forms.Label Lbl_Validade8;
-        private System.Windows.Forms.GroupBox Grp_Operadora;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
