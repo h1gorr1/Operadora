@@ -16,7 +16,7 @@ namespace Operadora_recarga_de_celular
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Frm_RecargaParaCelular());
         }
     }
 }
