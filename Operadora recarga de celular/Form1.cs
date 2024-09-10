@@ -19,9 +19,9 @@ namespace Operadora_recarga_de_celular
 
         private void Rad_Vivo_CheckedChanged(object sender, EventArgs e)
         {
-            Txt_Operadora.Text = "Vivo"; //Mudando o Nome de cada operadora,no caso a Vivo.
+            Txt_Operadora.Text = "Vivo";
             
-            BackColor = Color.DarkViolet; //Formatação da cor das labels e grupos
+            BackColor = Color.DarkViolet; //Formatação da cor
             Lbl_BemVindo.ForeColor = Color.White;
             Lbl_Nome.ForeColor = Color.White;
             Grp_Operadoras.ForeColor = Color.White;
@@ -40,23 +40,23 @@ namespace Operadora_recarga_de_celular
             Lbl_Validade8.ForeColor = Color.White;
 
             // Formatação de cores Dos botões
-            Btn_Validade1.ForeColor = Color.Violet;
-            Btn_Validade1.FlatAppearance.MouseOverBackColor = Color.White;
-           
-            Btn_Validade2.ForeColor = Color.Violet;
-            Btn_Validade2.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade3.ForeColor = Color.Violet;
-            Btn_Validade3.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade4.ForeColor = Color.Violet;
-            Btn_Validade4.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade5.ForeColor = Color.Violet;
-            Btn_Validade5.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade6.ForeColor = Color.Violet;
-            Btn_Validade6.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade7.ForeColor = Color.Violet;
-            Btn_Validade7.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade8.ForeColor = Color.Violet;
-            Btn_Validade8.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade1.ForeColor = Color.White;
+            Btn_Validade1.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            
+            Btn_Validade2.ForeColor = Color.White;
+            Btn_Validade2.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            Btn_Validade3.ForeColor = Color.White;
+            Btn_Validade3.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            Btn_Validade4.ForeColor = Color.White;
+            Btn_Validade4.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            Btn_Validade5.ForeColor = Color.White;
+            Btn_Validade5.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            Btn_Validade6.ForeColor = Color.White;
+            Btn_Validade6.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            Btn_Validade7.ForeColor = Color.White;
+            Btn_Validade7.FlatAppearance.MouseOverBackColor = Color.LightPink;
+            Btn_Validade8.ForeColor = Color.White;
+            Btn_Validade8.FlatAppearance.MouseOverBackColor = Color.LightPink;
 
             //Validando o Formulário 
             Lbl_BemVindo.Enabled = true;
@@ -277,75 +277,11 @@ namespace Operadora_recarga_de_celular
 
         private void Rad_Tim_CheckedChanged(object sender, EventArgs e)
         {
-            Txt_ValorDaRecarga.Text = ""; //Deixando a Caixa de Texto Vazia.
-            BackColor = Color.RoyalBlue; //Cor do Fundo
-            Txt_Operadora.Text = "Tim"; //Botão que mostra a Operadora em Ação,no caso o Tim.
-            // Validando o Formulário 
-            Lbl_BemVindo.Enabled = true;
-            Lbl_Celular.Enabled = true;
-            Lbl_DDD.Enabled = true;
-            Lbl_Nome.Enabled = true;
-            Lbl_Operadora.Enabled = true;
-            Lbl_SelecioneoValorDeRecarga.Enabled = true;
-            Lbl_Validade1.Enabled = true;
-            Lbl_Validade2.Enabled = true;
-            Lbl_Validade3.Enabled = true;
-            Lbl_Validade4.Enabled = true;
-            Lbl_Validade5.Enabled = true;
-            Lbl_Validade6.Enabled = true;
-            Lbl_Validade7.Enabled = true;
-            Lbl_Validade8.Enabled = true;
-            Lbl_Valor.Enabled = true;
-            Btn_Validade1.Enabled = true;
-            Btn_Validade2.Enabled = true;
-            Btn_Validade2.Enabled = true;
-            Btn_Validade3.Enabled = true;
-            Btn_Validade4.Enabled = true;
-            Btn_Validade5.Enabled = true;
-            Btn_Validade6.Enabled = true;
-            Btn_Validade7.Enabled = true;
-            Btn_Validade8.Enabled = true;
-            Lbl_Dados.Enabled = true;
-            Txt_DDD.Enabled = true;
-            Txt_Nome.Enabled = true;
-            Txt_Numero.Enabled = true;
+            BackColor = Color.RoyalBlue;
+            Txt_Operadora.Text = "Tim";
+            Txt_ValorDaRecarga.Text = "";
 
-            // Alterando a cor das Letras e Grupos
-            Lbl_BemVindo.ForeColor = Color.White;
-            Lbl_Nome.ForeColor = Color.White;
-            Grp_Operadoras.ForeColor = Color.White;
-            Lbl_Operadora.ForeColor = Color.White;
-            Lbl_DDD.ForeColor = Color.White;
-            Lbl_Celular.ForeColor = Color.White;
-            Lbl_Valor.ForeColor = Color.White;
-            Lbl_SelecioneoValorDeRecarga.ForeColor = Color.White;
-            Lbl_Validade1.ForeColor = Color.White;
-            Lbl_Validade2.ForeColor = Color.White;
-            Lbl_Validade3.ForeColor = Color.White;
-            Lbl_Validade4.ForeColor = Color.White;
-            Lbl_Validade5.ForeColor = Color.White;
-            Lbl_Validade6.ForeColor = Color.White;
-            Lbl_Validade7.ForeColor = Color.White;
-            Lbl_Validade8.ForeColor = Color.White;
-
-            // Alterando a cor dos botões
-            Btn_Validade1.ForeColor = Color.DarkBlue;
-            Btn_Validade1.FlatAppearance.MouseOverBackColor = Color.White;
-
-            Btn_Validade2.ForeColor = Color.DarkBlue;
-            Btn_Validade2.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade3.ForeColor = Color.DarkBlue;
-            Btn_Validade3.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade4.ForeColor = Color.DarkBlue;
-            Btn_Validade4.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade5.ForeColor = Color.DarkBlue;
-            Btn_Validade5.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade6.ForeColor = Color.DarkBlue;
-            Btn_Validade6.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade7.ForeColor = Color.DarkBlue;
-            Btn_Validade7.FlatAppearance.MouseOverBackColor = Color.White;
-            Btn_Validade8.ForeColor = Color.DarkBlue;
-            Btn_Validade8.FlatAppearance.MouseOverBackColor = Color.White;
+            //Botões dos planos das operadoras
 
             Btn_Validade1.Text = "10 Reais";
             Lbl_Validade1.Text = "30 Dias";
@@ -371,13 +307,106 @@ namespace Operadora_recarga_de_celular
             Btn_Validade8.Text = "100 Reais";
             Lbl_Validade8.Text = "180 Dias";
 
+            // Validando o Formulário 
+            Lbl_BemVindo.Enabled = true;
+            Lbl_Celular.Enabled = true;
+            Lbl_DDD.Enabled = true;
+            Lbl_Nome.Enabled = true;
+            Lbl_Operadora.Enabled = true;
+            Lbl_SelecioneoValorDeRecarga.Enabled = true;
+            Lbl_Validade1.Enabled = true;
+            Lbl_Validade2.Enabled = true;
+            Lbl_Validade3.Enabled = true;
+            Lbl_Validade4.Enabled = true;
+            Lbl_Validade5.Enabled = true;
+            Lbl_Validade6.Enabled = true;
+            Lbl_Validade7.Enabled = true;
+            Lbl_Validade8.Enabled = true;
+            Lbl_Valor.Enabled = true;
+            Btn_Validade1.Enabled = true;
+            Btn_Validade2.Enabled = true;
+            Btn_Validade2.Enabled = true;
+            Btn_Validade3.Enabled = true;
+            Btn_Validade4.Enabled = true;
+            Btn_Validade5.Enabled = true;
+            Btn_Validade6.Enabled = true;
+            Btn_Validade7.Enabled = true;
+            Btn_Validade8.Enabled = true;
+            Lbl_Dados.Enabled = true;
+            Txt_DDD.Enabled = true;
+            Txt_Nome.Enabled = true;
+            Txt_Numero.Enabled = true;
+
+            // Alterando a cor das Letras e Grupos
+            Lbl_BemVindo.ForeColor = Color.White;
+            Lbl_Nome.ForeColor = Color.White;
+            Grp_Operadoras.ForeColor = Color.White;
+            Lbl_Operadora.ForeColor = Color.White;
+            Lbl_DDD.ForeColor = Color.White;
+            Lbl_Celular.ForeColor = Color.White;
+            Lbl_Valor.ForeColor = Color.White;
+            Lbl_SelecioneoValorDeRecarga.ForeColor = Color.White;
+            Lbl_Validade1.ForeColor = Color.White;
+            Lbl_Validade2.ForeColor = Color.White;
+            Lbl_Validade3.ForeColor = Color.White;
+            Lbl_Validade4.ForeColor = Color.White;
+            Lbl_Validade5.ForeColor = Color.White;
+            Lbl_Validade6.ForeColor = Color.White;
+            Lbl_Validade7.ForeColor = Color.White;
+            Lbl_Validade8.ForeColor = Color.White;
+
+            // Alterando a cor dos botões
+            Btn_Validade1.ForeColor = Color.Black;
+            Btn_Validade1.FlatAppearance.MouseOverBackColor = Color.White;
+
+            Btn_Validade2.ForeColor = Color.Black;
+            Btn_Validade2.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade3.ForeColor = Color.Black;
+            Btn_Validade3.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade4.ForeColor = Color.Black;
+            Btn_Validade4.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade5.ForeColor = Color.Black;
+            Btn_Validade5.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade6.ForeColor = Color.Black;
+            Btn_Validade6.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade7.ForeColor = Color.Black;
+            Btn_Validade7.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade8.ForeColor = Color.Black;
+            Btn_Validade8.FlatAppearance.MouseOverBackColor = Color.White;
+
         }
 
         private void Rad_Oi_CheckedChanged(object sender, EventArgs e)
         {
-            BackColor = Color.DarkOrange;
-            Txt_Operadora.Text = "Oi";
+            BackColor = Color.Gold;
             Txt_ValorDaRecarga.Text = "";
+            Txt_Operadora.Text = "Oi";
+
+            //Botões dos planos das operadoras
+
+            Btn_Validade1.Text = "10 Reais";
+            Lbl_Validade1.Text = "30 Dias";
+
+            Btn_Validade2.Text = "15 Reais";
+            Lbl_Validade2.Text = "30 Dias";
+
+            Btn_Validade3.Text = "20 Reais";
+            Lbl_Validade3.Text = "45 Dias";
+
+            Btn_Validade4.Text = "25 Reais";
+            Lbl_Validade4.Text = "45 Dias";
+
+            Btn_Validade5.Text = "30 Reais";
+            Lbl_Validade5.Text = "90 Dias";
+
+            Btn_Validade6.Text = "35 Reais";
+            Lbl_Validade6.Text = "90 Dias";
+
+            Btn_Validade7.Text = "40 Reais";
+            Lbl_Validade7.Text = "90 Dias";
+
+            Btn_Validade8.Text = "50 Reais";
+            Lbl_Validade8.Text = "90 Dias";
 
             // Validando o Formulário 
             Lbl_BemVindo.Enabled = true;
@@ -427,50 +456,24 @@ namespace Operadora_recarga_de_celular
             Lbl_Validade7.ForeColor = Color.White;
             Lbl_Validade8.ForeColor = Color.White;
 
-            Btn_Validade1.Text = "10 Reais";
-            Lbl_Validade1.Text = "30 Dias";
-
-            Btn_Validade2.Text = "15 Reais";
-            Lbl_Validade2.Text = "30 Dias";
-
-            Btn_Validade3.Text = "20 Reais";
-            Lbl_Validade3.Text = "45 Dias";
-
-            Btn_Validade4.Text = "25 Reais";
-            Lbl_Validade4.Text = "45 Dias";
-
-            Btn_Validade5.Text = "30 Reais";
-            Lbl_Validade5.Text = "90 Dias";
-
-            Btn_Validade6.Text = "35 Reais";
-            Lbl_Validade6.Text = "90 Dias";
-
-            Btn_Validade7.Text = "40 Reais";
-            Lbl_Validade7.Text = "90 Dias";
-
-            Btn_Validade8.Text = "50 Reais";
-            Lbl_Validade8.Text = "90 Dias";
-
             // Alterando a cor dos botões
-            Btn_Validade1.ForeColor = Color.Gold;
-            Btn_Validade1.FlatAppearance.MouseOverBackColor = Color.Black;
+            Btn_Validade1.ForeColor = Color.OrangeRed;
+            Btn_Validade1.FlatAppearance.MouseOverBackColor = Color.White;
 
-            Btn_Validade2.ForeColor = Color.Gold;
-            Btn_Validade2.FlatAppearance.MouseOverBackColor = Color.Black;
-            Btn_Validade3.ForeColor = Color.Gold;
-            Btn_Validade3.FlatAppearance.MouseOverBackColor = Color.Black;
-            Btn_Validade4.ForeColor = Color.Gold;
-            Btn_Validade4.FlatAppearance.MouseOverBackColor = Color.Black;
-            Btn_Validade5.ForeColor = Color.Gold;
-            Btn_Validade5.FlatAppearance.MouseOverBackColor = Color.Black;
-            Btn_Validade6.ForeColor = Color.Gold;
-            Btn_Validade6.FlatAppearance.MouseOverBackColor = Color.Black;
-            Btn_Validade7.ForeColor = Color.Gold;
-            Btn_Validade7.FlatAppearance.MouseOverBackColor = Color.Black;
-            Btn_Validade8.ForeColor = Color.Gold;
-            Btn_Validade8.FlatAppearance.MouseOverBackColor = Color.Black;
+            Btn_Validade2.ForeColor = Color.OrangeRed;
+            Btn_Validade2.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade3.ForeColor = Color.OrangeRed;
+            Btn_Validade3.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade4.ForeColor = Color.OrangeRed;
+            Btn_Validade4.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade5.ForeColor = Color.OrangeRed;
+            Btn_Validade5.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade6.ForeColor = Color.OrangeRed;
+            Btn_Validade6.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade7.ForeColor = Color.OrangeRed;
+            Btn_Validade7.FlatAppearance.MouseOverBackColor = Color.White;
+            Btn_Validade8.ForeColor = Color.OrangeRed;
+            Btn_Validade8.FlatAppearance.MouseOverBackColor = Color.White;
         }
-
-
     }
 }
